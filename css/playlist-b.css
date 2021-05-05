@@ -1,0 +1,48 @@
+.playlistB{
+    display: flex;
+    inline-size: 17.5rem;
+    border-radius: .5rem;
+    overflow: hidden;
+    background: rgba(255, 255, 255, .1);
+    transition: .3s background;
+    
+}
+
+/* .playlistList-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+} */
+
+.playlistB:hover, .playlistB:focus-within{
+    background: rgba(255, 255, 255, .2);
+}
+
+.playlistB-details{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    gap: .5rem;
+}
+.playlistB-details:hover .playlistB-control,
+.playlistB-details:focus-within .playlistB-control{
+    opacity: 1;
+
+}
+
+.playlistB-control{
+    opacity: 0;
+    transition: .3s;
+}
+
+.playlistB-cover img{
+    inline-size: 4.75rem;
+    block-size: 4.75rem;
+    vertical-align: middle;
+}
+
+.playlistB-title{
+    color: var(--white);
+    font: var(--baseFontBold);
+    margin: 0%;
+}

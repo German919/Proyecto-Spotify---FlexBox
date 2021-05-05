@@ -1,0 +1,84 @@
+.img-artista img{
+    inline-size: 23.5rem;
+    block-size: 23.5rem;
+}
+
+.playlist-info-artista{
+    flex: 1;
+}
+
+.playlist-info-artista-playlist{
+    color: var(--gray10);
+    font-size: 2rem;
+}
+
+.playlist-info-artista-title{
+    font-size: 4rem;
+}
+
+.playlist-info-artista-nombre{
+    color: #fff;;
+}
+
+.playlist-info-artista-gusta strong{
+    color: #fff;
+    font-weight: 700;
+}
+
+.contnedor-button-icon{
+    display: flex;
+    align-items:center;
+    gap: 3rem;
+    padding-block-start: 1rem;
+}
+
+.contnedor-button-icon .buttonIcon{
+    /* margin-block-start: 1.5rem; */
+    inline-size: 3.5rem;
+    block-size: 3.5rem;
+}
+
+.contnedor-button-icon .buttonIcon .fas{
+    position: relative;
+    left: 2px;
+    top: 1px;
+    font-size: 1.2rem;
+}
+
+.contnedor-button-icon .icon-heart{
+    cursor: pointer;
+    font-size: 2.2rem;
+}
+
+.navigation-prev a{
+    text-decoration: none;
+}
+.navigation-prev a .icon-arrow-left{
+    color: var(--gray10)
+} 
+
+.navigation-prev:hover a .icon-arrow-left{
+    color: #FFF;
+}
+
+@media screen and (max-width:1172px){
+    .playlist-info-artista-title{
+        font-size: 3rem;
+    }
+    .playlist-info-artista-playlist{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width:804px){
+    .playlist-info-artista-title{
+        font-size: 2rem;
+    }
+    .playlist-info-artista-playlist{
+        font-size: 1rem;
+    }
+    .img-artista img{
+        inline-size: 20rem;
+        block-size: 20rem;
+    }
+}

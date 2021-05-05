@@ -1,0 +1,16 @@
+.playerControls{
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+}
+
+.playerControls-buttons{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.playerControls-buttons .fas{
+    position: relative;
+    left: 2px;
+}
