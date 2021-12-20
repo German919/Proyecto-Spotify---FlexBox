@@ -7,6 +7,6 @@
 
 <h4 align="left">Presentación.</h4>
 
-![spotify-ori1](https://user-images.githubusercontent.com/70654012/146819294-f5b07d4c-642d-4667-95c8-45fe7e31f2a6.png)
+![spotify-ori1](https://user-images.githubusercontent.com/70654012/146819611-8d1ae078-d61f-4617-8857-5fb29620a56e.png)
 
-![spotify-ori2](https://user-images.githubusercontent.com/70654012/146819374-c1dcc36a-e521-4045-bba0-23988798265b.png)
+![spotify-ori2](https://user-images.githubusercontent.com/70654012/146819615-b70aad6f-e251-40f4-b9fe-261e3ea64762.png)
